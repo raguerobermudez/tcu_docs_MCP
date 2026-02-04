@@ -73,7 +73,7 @@ from pydantic import BaseModel, Field
 """
 """ MCP Context """
 import json
-import fastMCP from FastMCP
+from fastMCP import FastMCP
 
 """Basic dynamic resource returning text data"""
 
