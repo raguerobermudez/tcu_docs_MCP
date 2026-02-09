@@ -212,7 +212,10 @@ Indeterminate= no specific progress, just activity
 Usuario → LLM → Tool → (Tool llama OTRO LLM) → Resultado
 """
 
-#result = await ctx.sample("Resume")
+#result = await ctx.sample("Resume this")
 #return result.text
 
 
+### Storage Backend
+
+""" FastMCP supports various storage backends to persist data such as tool definitions, user sessions, and logs."""
